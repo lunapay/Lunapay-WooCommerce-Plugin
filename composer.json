@@ -1,0 +1,16 @@
+{
+    "name": "lunaPay/lunaPay-for-woocommerce",
+    "description": "A LunaPay plugin for integration with WooCommerce",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Fintech Capital Group Berhad.",
+            "email": "developer@fcgb.com.my"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.2.4"
+    }
+}
