@@ -2,10 +2,10 @@
 
 /**
  * Plugin Name: LunaPay for WooCommerce
- * Plugin URI: 
+ * Plugin URI: https://wordpress.org/plugins/lunaPay-for-woocommerce/
  * Description: LunaPay Payment Gateway | <a href="https://app.lunapay.co/login" target="_blank">Sign up Now</a>.
  * Author: Fintech Capital Group Berhad
- * Author URI: https://github.com/lunapay/Lunapay-WooCommerce-Plugin
+ * Author URI: http://github.com/lunaPay/lunaPay-for-woocommerce
  * Version: 3.21.3
  * Requires PHP: 5.2.4
  * Requires at least: 4.6
@@ -439,6 +439,8 @@ function lpw_load()
 				
         	}
 			 list($paymentID, $status) = $lunapay->getPaymentStatus($token, $payment_id);
+	
+//  			
 				return array(
 					'result' => 'success',
 					'redirect' => apply_filters('lpw_url', $payment_url)
